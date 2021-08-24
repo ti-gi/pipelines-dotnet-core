@@ -40,4 +40,4 @@ steps:
   inputs:
     azureSubscription: 'resource'
     appName: 'pipelines-net-core'
-    package: $(System.DefaultWorkingDirectory)/**/*.zip     
+    package: $(Build.ArtifactStagingDirectory)/**/*.zip     
